@@ -50,6 +50,12 @@ const Home = () => {
         localStorage.setItem("visibleData", visibleData + 10);
     };
 
+    // Function to load less cards
+    const loadLess = () => {
+        setVisibleData(prev => Math.max(prev - 10, 10)); // Decrease the number of visible data by 10, but not below 10
+        localStorage.setItem("visibleData", Math.max(visibleData - 10, 10));
+    };
+
     return (
         <div className="p-2">
             <Helmet>
@@ -85,6 +91,13 @@ const Home = () => {
                 <div className="text-center">
                     <button onClick={loadMore} className="bg-blue-500 text-white font-bold py-2 px-4 rounded mt-4">
                         See More
+                    </button>
+                </div>
+            )}
+            {visibleData > 10 && (
+                <div className="text-center">
+                    <button onClick={loadLess} className="bg-red-500 text-white font-bold py-2 px-4 rounded mt-4">
+                        See Less
                     </button>
                 </div>
             )}

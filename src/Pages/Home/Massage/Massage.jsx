@@ -9,6 +9,7 @@ const Massage = () => {
     const handleSubmit = (e)=>{
         e.preventDefault();
 
+        
         const form = e.target;
         const name = form.name.value;
         const date = form.date.value;
@@ -28,6 +29,7 @@ const Massage = () => {
             submit
         }
         setFeedback(submitInfo);
+        form.reset();
         console.log(submitInfo,'clicked');
     }
     return (
@@ -66,27 +68,27 @@ const Massage = () => {
                 <div className=" flex flex-col border border-gray-600 p-3">
 
                     <div className="w-full flex flex-col flex-wrap md:flex md:flex-row lg:flex lg:flex-row justify-between ">
-                        <div className="w-1/3 flex items-center justify-center border-2 border-blue-500">
+                        <div className="w-full md:w-1/3 lg:w-1/3 flex items-center justify-center border-2 border-blue-500">
                             <div className="  flex justify-center items-center row-span-2 w-[100px] h-[100px] rounded-full border-2 border-blue-500">
                                 <input type="image" src="" alt="img" />
                             </div>
                         </div>
-                        <div className="w-1/3 h-[108px] flex flex-col justify-between border border-yellow-500  ">
-                            <div className=" text-wrap h-[54px] overflow-y-scroll border border-red-700  ">
+                        <div className="p-2 w-full md:w-1/3 lg:w-1/3 h-[108px] flex flex-col justify-between border border-yellow-500  ">
+                            <div className="p-3  text-wrap h-[54px] overflow-y-scroll border border-red-700  ">
                                 <p>{feedback.name}</p>
                             </div>
-                            <div className="text-wrap h-[54px] flex flex-col justify-between overflow-y-scroll border border-red-700  ">
+                            <div className="p-3 text-wrap h-[54px] flex flex-col justify-between overflow-y-scroll border border-red-700  ">
                                 <p>{feedback.date}</p>
-                                <div className="">
+                                <div className=" ">
                                     <p>{feedback.time}</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="w-1/3 h-[108px]  flex flex-col justify-between border border-yellow-500 ">
-                            <div className="text-wrap h-[54px] overflow-y-scroll border border-red-700  ">
+                        <div className="w-full md:w-1/3 lg:w-1/3 h-[108px]  flex flex-col justify-between border border-yellow-500 ">
+                            <div className="p-3 text-wrap h-[54px] overflow-y-scroll border border-red-700  ">
                                 <p>{feedback.profession}</p>
                             </div>
-                            <div className=" text-wrap h-[54px] overflow-y-scroll border border-red-700 ">
+                            <div className="p-3 text-wrap h-[54px] overflow-y-scroll border border-red-700 ">
                                 <p>{feedback.location}</p>
                             </div>
                         </div>

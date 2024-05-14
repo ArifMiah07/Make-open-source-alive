@@ -6,7 +6,7 @@ const NavBar = () => {
     const navLinks = <>
         <li><NavLink to={'/home'} className="text-black hover:text-yellow-400 hover:text-[21px] ">Home</NavLink> </li>
         <li><NavLink to={'/pages'} className="text-black hover:text-yellow-400 hover:text-[21px] ">Pages</NavLink> </li>
-        <li><NavLink to={'/classes'} className="text-black hover:text-yellow-400 hover:text-[21px] ">Classes</NavLink> </li>
+        <li><a href='https://en.wikipedia.org/wiki/List_of_free_and_open-source_software_packages' target='_blank' className="text-black hover:text-yellow-400 hover:text-[21px] ">List of open source program</a> </li>
         <li><NavLink to={'/blog'} className="text-black hover:text-yellow-400 hover:text-[21px] ">Blogs</NavLink> </li>
         <li><NavLink to={'/contact'} className="text-black hover:text-yellow-400 hover:text-[21px] ">Contact</NavLink> </li>
     </>
