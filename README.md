@@ -1,8 +1,5 @@
-# Keep Open Source Program ALive
+# Keep Open Source Program ALive | KOSPA
+###### MAKE Open Source Program ALive | mOSPA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[KOSPA](https://keep-open-source-alive.web.app/) IS A WEBSITE WHERE I TRY TO SHOWCASE ALL OF THE OPEN SOURCE PROGRAMS.

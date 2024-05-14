@@ -56,54 +56,57 @@ const Massage = () => {
                 <meta name="twitter:description" content="An open-source project aimed at keeping other open-source projects alive and maintained." />
                 <meta name="twitter:image" content="https://keep-open-source-alive.web.app/keep-open-source-alive-image.jpg" />
             </Helmet>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className="bg-gray-50 hover:bg-slate-200 p-6 ">
                 <div className="w-full items-center flex flex-col ">
-                    <input required className="w-1/2 p-3 bg-[#e6e6e6] rounded-lg  outline-none border border-gray-800  " type="text" name="name" placeholder="Your Name" />
-                    <input required className="w-1/2 p-3 bg-[#bbc] rounded-lg  outline-none border border-gray-800  " type="date" name="date" placeholder="Date" />
-                    <input required className="w-1/2 p-3 bg-[#ccb] rounded-lg  outline-none border border-gray-800  " type="time" name="time" placeholder="Time" />
-                    <input required className="w-1/2 p-3 bg-[#ddb] rounded-lg  outline-none border border-gray-800  " type="text" name="location" placeholder="Your Country" />
-                    <input required className="w-1/2 p-3 bg-[#ffd] rounded-lg  outline-none border border-gray-800  " type="text" name="profession" placeholder="Your Profession" />
-                <div className="w-full rounded-lg p-6 ">
+                    <input required className="w-10/12  p-3 bg-[#e6e6e6] rounded-lg  outline-none border border-gray-800  " type="text" name="name" placeholder="Your Name" />
+                    <input required className="w-10/12  p-3 bg-[#bbc] rounded-lg  outline-none border border-gray-800  " type="date" name="date" placeholder="Date" />
+                    <input required className="w-10/12  p-3 bg-[#ccb] rounded-lg  outline-none border border-gray-800  " type="time" name="time" placeholder="Time" />
+                    <input required className="w-10/12  p-3 bg-[#ddb] rounded-lg  outline-none border border-gray-800  " type="text" name="location" placeholder="Your Country" />
+                    <input required className="w-10/12  p-3 bg-[#ffd] rounded-lg  outline-none border border-gray-800  " type="text" name="profession" placeholder="Your Profession" />
+                    <input className="w-10/12  p-3 bg-[#ffe] rounded-lg  outline-none border border-gray-800  "  type="text" name="imgUrl" placeholder="Image Url" />
+                <div className="w-full rounded-lg  ">
                     <textarea name="massage" defaultValue={'Nice work!😍'} id="" className="bg-[#afd]  rounded-lg outline-none border border-gray-800 p-6 w-full md:w-full lg:w-full"  rows="7" placeholder="Please Write Your Comment/Opinions/Advice/Suggestions Here "></textarea>
                 </div>
                     <input className="btn" type="submit" name="submit" value={"Submit You Comment"} placeholder="Submit You Comment" />
                 </div>
 {/* massage */}
-                <div className="shadow-xl flex flex-col border border-gray-600 p-3">
+            </form>
+            <div className="sha flex flex-col border border-gray-600 p-3">
 
-                    <div className="w-full flex flex-col flex-wrap md:flex md:flex-row lg:flex lg:flex-row justify-between ">
-                        <div className="w-full md:w-1/3 lg:w-1/3 flex items-center justify-center border-2 border-blue-500">
-                            <div className="  flex justify-center items-center row-span-2 w-[100px] h-[100px] rounded-full border-2 border-blue-500">
-                                <img className="rounded-full w-fit h-fit" src={img} alt="" />
-                            </div>
+                <div className="w-full flex flex-col flex-wrap md:flex md:flex-row lg:flex lg:flex-row justify-between ">
+                    <div className="w-full md:w-1/3 lg:w-1/3 flex items-center justify-center border-2 border-blue-500">
+                        <div className="  flex justify-center items-center row-span-2 w-[100px] h-[100px] rounded-full border-2 border-blue-500">
+                            <img className="rounded-full w-fit h-fit" src={img} alt="" />
                         </div>
-                        <div className="p-2 w-full md:w-1/3 lg:w-1/3 h-[108px] flex flex-col justify-between border border-yellow-500  ">
-                            <div className="p-3  text-wrap h-[54px] overflow-y-scroll border border-red-700  ">
-                                <p>{feedback.name}</p>
-                            </div>
-                            <div className="p-3 text-wrap h-[54px] flex flex-col justify-between overflow-y-scroll border border-red-700  ">
-                                <p>{feedback.date}</p>
-                                <div className=" ">
-                                    <p>{feedback.time}</p>
-                                </div>
-                            </div>
+                    </div>
+                    <div className="p-2 w-full md:w-1/3 lg:w-1/3 h-[108px] flex flex-col justify-between border border-yellow-500  ">
+                        <div className="p-3  text-wrap h-[54px] overflow-y-scroll border border-red-700  ">
+                            <p>{feedback.name}</p>
                         </div>
-                        <div className="w-full md:w-1/3 lg:w-1/3 h-[108px]  flex flex-col justify-between border border-yellow-500 ">
-                            <div className="p-3 text-wrap h-[54px] overflow-y-scroll border border-red-700  ">
-                                <p>{feedback.profession}</p>
-                            </div>
-                            <div className="p-3 text-wrap h-[54px] overflow-y-scroll border border-red-700 ">
-                                <p>{feedback.location}</p>
+                        <div className="p-3 text-wrap h-[54px] flex flex-col justify-between overflow-y-scroll border border-red-700  ">
+                            <p>{feedback.date}</p>
+                            <div className=" ">
+                                <p>{feedback.time}</p>
                             </div>
                         </div>
                     </div>
-
-                    <div className="overflow-y-scroll text-wrap p-3  h-[200px] border border-red-700 col-start-1  ">
-                        <input type="text" name="imgUrl" placeholder="Image Url" />
-                        <p>{feedback.massage}</p>
+                    <div className="w-full md:w-1/3 lg:w-1/3 h-[108px]  flex flex-col justify-between border border-yellow-500 ">
+                        <div className="p-3 text-wrap h-[54px] overflow-y-scroll border border-red-700  ">
+                            <p>{feedback.profession}</p>
+                        </div>
+                        <div className="p-3 text-wrap h-[54px] overflow-y-scroll border border-red-700 ">
+                            <p>{feedback.location}</p>
+                        </div>
                     </div>
                 </div>
-            </form>
+
+                <div className="overflow-y-scroll text-wrap p-3  h-[200px] border border-red-700 col-start-1  ">
+                    <p>{feedback.massage}</p>
+                </div>
+            </div>
+            <div>
+                
+            </div>
         </div>
     );
 };

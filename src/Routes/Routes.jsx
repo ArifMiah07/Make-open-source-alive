@@ -5,6 +5,12 @@ import Main from "../Layouts/Main/Main";
 import Home from "../Pages/Home/Home/Home";
 import CardDetails from "../Components/CardDetails/CardDetails";
 import AddCard from "../Pages/AddCard/AddCard";
+import LogIn from "../Pages/LogIn/LogIn";
+import Register from "../Pages/Register/Register";
+import About from "../Pages/About/About";
+import Profile from "../Pages/Profile/Profile";
+import Blogs from "../Pages/Blogs/Blogs";
+import SearchPage from "../Pages/SearchPage/SearchPage";
 
 
 const router = createBrowserRouter([
@@ -24,24 +30,31 @@ const router = createBrowserRouter([
         {
           path: '/addCard',
           element: <AddCard></AddCard>
+        },
+        {
+          path: '/about',
+          element: <About></About>
+        },
+        {
+          path: '/profile',
+          element: <Profile></Profile>
+        },
+        {
+          path: '/blogs',
+          element: <Blogs></Blogs>
+        },
+        {
+          path: '/search',
+          element: <SearchPage></SearchPage>
+        },
+        {
+            path: '/login',
+            element: <LogIn></LogIn>
+        },
+        {
+            path: '/register',
+            element: <Register></Register>
         }
-        // {
-        //     path: '/login',
-        //     element: <LogIn></LogIn>
-        // },
-        // {
-        //     path: '/sign-up',
-        //     element: <SignUp></SignUp>
-        // },
-        // {
-        //     path: '/checkOut/:id',
-        //     element: <PrivateRoute> <CheckOut></CheckOut></PrivateRoute>,
-        //     loader: ({params})=> fetch(`https://car-doctor-sever-main.vercel.app/services/${params.id}`)
-        // },
-        // {
-        //     path: '/bookings',
-        //     element: <PrivateRoute><Bookings></Bookings></PrivateRoute>
-        // }
       ]
     },
   ]);

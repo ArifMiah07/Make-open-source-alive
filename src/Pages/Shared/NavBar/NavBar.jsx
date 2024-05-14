@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './navbar.css'
 import { Helmet } from 'react-helmet-async';
 const NavBar = () => {
@@ -13,9 +13,10 @@ const NavBar = () => {
   return (
     <div className="navbar border-b-2 border rounded-[85px]  custom-box-shadow bg-[#FFFFFF] flex justify-between items-center px-4 py-2 text-white">
         <Helmet>
-                <title>Keep Open Source Alive</title>
-            <meta title="keep-open-source-alive" />
-            <meta name="keep open source alive" />
+                <title>Keep Open Source Alive | Kospa</title>
+            <meta name="keep-open-source-alive" />
+            <meta title="keep open source alive" />
+            <meta name="make open source program alive" />
             <meta name="description" content="Keep Open Source Alive - An open-source project aimed at keeping other open-source projects alive and maintained." />
             <meta name="keywords" content="open source, keep open source alive, maintain open source projects" />
             <meta name="author" content="Arif Miah" />
@@ -40,7 +41,7 @@ const NavBar = () => {
             <div className="flex items-center">
                {/* <img src="/logo.png" alt="Studykids" className="h-8 mr-2" /> 
                <span className='flex'><img className='w-8 h-8' src={''} alt="" /> <img className='w-2 h-2' src="https://ouch-cdn2.icons8.com/U0_RVUErdJV8HehKVPesHa6AesS-qD5rQI44pClMtH4/rs:fit:249:456/extend:false/wm:1:re:0:0:0.8/wmid:ouch/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvMjA4/L2YzMDNjZTQyLWZl/ODktNDNhZi04ZjY4/LTJjNzUwMTQyNjg1/OC5zdmc.png" alt="" /></span>*/}
-              <div className='flex items-center'></div> <span className="flex items-center gap-0 lg:text-2xl font-bold"> <span className='text-[#09A24F]  '>Keep Open Source</span><span className='text-[#7763E5]  '>Alive</span></span>
+              <div className='flex items-center'></div> <span className="flex items-center gap-0 lg:text-2xl font-bold"><span className='text-[#7763E5] hidden md:block lg:block: '>KOSPA</span> <span className='text-[#09A24F] text-[12px]  '>Keep Open Source Program Alive</span></span>
            </div>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -50,10 +51,17 @@ const NavBar = () => {
         </div>
         <div>
         </div>
-        <div className="navbar-end ">
-            <button className=" glow-effect admissionNow bg-yellow-400 text-gray-700 px-4 py-2 rounded-3xl hover:bg-yellow-500">
-                Login
-            </button>
+        <div className="navbar-end flex gap-2">
+            <Link className='/login'>
+                <button className=" glow-effect admissionNow bg-yellow-400 text-gray-700 px-4 py-2 rounded-3xl hover:bg-yellow-500">
+                    Login
+                </button>
+            </Link>
+            <Link to={'/register'}>
+                <button className=" glow-effect admissionNow bg-yellow-400 text-gray-700 px-4 py-2 rounded-3xl hover:bg-yellow-500">
+                    SignIn
+                </button>
+            </Link>
         </div>
     </div>
     

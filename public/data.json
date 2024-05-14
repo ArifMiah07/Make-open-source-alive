@@ -288,12 +288,14 @@
         "website": "https://www.clamwin.com/"
       },
       {
+        "category": "Artificial intelligence",
+        "sub_Category": "General AI",
         "id": "37",
-        "name": "",
-        "donateNow": "",
-        "img": "",
-        "description": "",
-        "website": ""
+        "name": "OpenCog",
+        "donateNow": "https://opencog.org/donate/",
+        "img": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/OpenCog.png/180px-OpenCog.png",
+        "description": "OpenCog is a project that aims to build an open source artificial intelligence framework.",
+        "website": "https://opencog.org"
       },
       {
         "id": "38",
