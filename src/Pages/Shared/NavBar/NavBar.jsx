@@ -4,11 +4,11 @@ import { Helmet } from 'react-helmet-async';
 const NavBar = () => {
 
     const navLinks = <>
-        <li><NavLink to={'/home'} className="text-black hover:text-yellow-400 hover:text-[21px] ">Home</NavLink> </li>
-        <li><NavLink to={'/pages'} className="text-black hover:text-yellow-400 hover:text-[21px] ">Pages</NavLink> </li>
+        <li><NavLink to={'/'} className="text-black hover:text-yellow-400 hover:text-[21px] ">Home</NavLink> </li>
+        <li><NavLink to={'/profile'} className="text-black hover:text-yellow-400 hover:text-[21px] ">Profile</NavLink> </li>
         <li><a href='https://en.wikipedia.org/wiki/List_of_free_and_open-source_software_packages' target='_blank' className="text-black hover:text-yellow-400 hover:text-[21px] ">List of open source program</a> </li>
         <li><NavLink to={'/blog'} className="text-black hover:text-yellow-400 hover:text-[21px] ">Blogs</NavLink> </li>
-        <li><NavLink to={'/contact'} className="text-black hover:text-yellow-400 hover:text-[21px] ">Contact</NavLink> </li>
+        <li><NavLink to={'/about'} className="text-black hover:text-yellow-400 hover:text-[21px] ">About</NavLink> </li>
     </>
   return (
     <div className="navbar border-b-2 border rounded-[85px]  custom-box-shadow bg-[#FFFFFF] flex justify-between items-center px-4 py-2 text-white">

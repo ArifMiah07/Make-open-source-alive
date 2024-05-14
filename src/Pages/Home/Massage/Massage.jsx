@@ -5,6 +5,7 @@ import { Helmet } from "react-helmet-async";
 const Massage = () => {
 
     const [feedback, setFeedback] = useState([]);
+    const [img, setImg] = useState('');
 
     const handleSubmit = (e)=>{
         e.preventDefault();
@@ -18,6 +19,7 @@ const Massage = () => {
         const profession = form.profession.value;
         const massage = form.massage.value;
         const submit = form.submit.value;
+        const imgLink = form.imgUrl.value;
 
         const submitInfo = {
             name,
@@ -26,8 +28,10 @@ const Massage = () => {
             location,
             profession,
             massage,
+            imgLink,
             submit
         }
+        setImg(imgLink);
         setFeedback(submitInfo);
         form.reset();
         console.log(submitInfo,'clicked');
@@ -65,12 +69,12 @@ const Massage = () => {
                     <input className="btn" type="submit" name="submit" value={"Submit You Comment"} placeholder="Submit You Comment" />
                 </div>
 {/* massage */}
-                <div className=" flex flex-col border border-gray-600 p-3">
+                <div className="shadow-xl flex flex-col border border-gray-600 p-3">
 
                     <div className="w-full flex flex-col flex-wrap md:flex md:flex-row lg:flex lg:flex-row justify-between ">
                         <div className="w-full md:w-1/3 lg:w-1/3 flex items-center justify-center border-2 border-blue-500">
                             <div className="  flex justify-center items-center row-span-2 w-[100px] h-[100px] rounded-full border-2 border-blue-500">
-                                <input type="image" src="" alt="img" />
+                                <img className="rounded-full w-fit h-fit" src={img} alt="" />
                             </div>
                         </div>
                         <div className="p-2 w-full md:w-1/3 lg:w-1/3 h-[108px] flex flex-col justify-between border border-yellow-500  ">
@@ -95,6 +99,7 @@ const Massage = () => {
                     </div>
 
                     <div className="overflow-y-scroll text-wrap p-3  h-[200px] border border-red-700 col-start-1  ">
+                        <input type="text" name="imgUrl" placeholder="Image Url" />
                         <p>{feedback.massage}</p>
                     </div>
                 </div>

@@ -4,6 +4,7 @@ import {
 import Main from "../Layouts/Main/Main";
 import Home from "../Pages/Home/Home/Home";
 import CardDetails from "../Components/CardDetails/CardDetails";
+import AddCard from "../Pages/AddCard/AddCard";
 
 
 const router = createBrowserRouter([
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
         {
             path: '/cardDetails:id',
             element: <CardDetails></CardDetails>
+        },
+        {
+          path: '/addCard',
+          element: <AddCard></AddCard>
         }
         // {
         //     path: '/login',

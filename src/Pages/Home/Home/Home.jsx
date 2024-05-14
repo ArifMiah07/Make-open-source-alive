@@ -3,6 +3,7 @@ import Cards from "../../../Components/Cards/Cards";
 import NavBar from "../../Shared/NavBar/NavBar";
 import Massage from "../Massage/Massage";
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 
 const Home = () => {
     const [opData, setOpData] = useState([]);
@@ -79,12 +80,12 @@ const Home = () => {
             </div>
             <div className="p-4 bg-slate-500 flex gap-3">
                 <span className="text-white">Want to add Your own open source program in our list?</span>
-                <button className="bg-slate-600 text-emerald-50 px-6">Click to Add</button>
+                <Link to={'/addCard'}> <button className="bg-slate-600 text-emerald-50 px-6">Click to Add</button></Link>
                 <button onClick={toggleOrder} className="bg-slate-600 text-emerald-50 px-6">
                     {randomized ? "See Serialized" : "See Randomized"}
                 </button>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-6 border rounded-lg">
+            <div className="grid grid-cols-1 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 gap-6 p-6 border rounded-lg">
                 {opData.slice(0, visibleData).map((card, index) => <Cards key={index} card={card}></Cards>)}
             </div>
             {visibleData < opData.length && (
