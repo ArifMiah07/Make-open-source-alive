@@ -1,0 +1,341 @@
+[
+    {
+      "id" : "1",
+      "name": "Mozilla Firefox",
+      "donateNow" : "https://foundation.mozilla.org/en/donate/",
+      "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIALoAxQMBEQACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAAAQIDBAUGB//EAEQQAAICAQIDBQQHBAQPAAAAAAECAAMEBRESITEGE0FRYSJxgZEHMkKhscHRI1JichSSwvEVFyQlMzRDU2RzgoPh4vD/xAAbAQEAAgMBAQAAAAAAAAAAAAAAAgMBBAUGB//EADoRAAIBAwEFBQYFAwMFAAAAAAABAgMEERIFITFBUQYTYXHRMoGRobHBIkJS4fAUFSMzQ/E0YnKC0v/aAAwDAQACEQMRAD8A9xgBACAEAIAQAgBACAEAIAQAgBAIr7lqXdj7h5zVurulbR1Tfu6kowcnhGfZku7g77AHcCeVr7SrVpqWcY4L1NqNNJGlU4esMDyM9db1o16aqR4M1JR0vA+XGAgBACAEAIAQAgBACAEAIAQAgBACAEAIAQAgBAI7rVrTiPymtdXMLem6kiUYuTwZVlrWMSx+HlPGXFxO4qOc2bsYaVhDJrkizh3cD8DH2W+4zr7Jve5qd1P2X8mU1oallGlvPW5NQWAEAIAQAgBACAEAIAQAgBACAEAIAQAgBACAIekwwZGXf3tvL6o6Txu0rx3NZ49lcPU3qVPSiIGc4sF3gYGkwZNDByeMd259odPWep2Tf96u5qP8S4eK9TUrU9O9F3eds1xYAQAgBACAEAIAQAgBAE35wCuubS+UcZHDWhSxA57Ca6uqTq9yn+IsdKahra3FmbBWEAIAQAgBAKeo391RsD7T8hOXtW57mhhcZbi6hDVIyA3SePN/A7igYFBgxgWAICVO6nY+BkoylFpx4oNZWGa2Hki9difbXrPYbOvo3UMP2lx9TQq09D8C1OkVBACAEAIAQAgBACANY7TAOa1vXvbbFwn5jlZaPD0H6zz+0tqOOaVJ+b9PU69pYblUqe5Ffsu2+pHn1qb8RNPYmf6t+T+qLdorFD3+p189acMivvShC9rqijxMrnUjTjqk8IlCMpvEUUsLVBm5TJSv7JV3LHqTNO3vv6is4QW5LibFa2dGCcnvZoidA1RYAQDA1W7jyyoPJBt8Z5DbFbXcuPKKx9/2OlawxTz1KytOUXtDw0GMDg0EcC7wMBvAwLXY1Th0OxEto1p0qinDijEoqSwzZxMhciviXr4jyntLO7hc09UePM51Sm4PBMW57b85s6lnBWKJICwAgBACAEAQwDme1OtGhThYr7WkftGB5qPIepnG2ne6F3VN73xZ1tnWWv8Ay1Fu5I5Sttp5do7rRsdnL+71ajfo+6fMfqBN/ZMtF5Fdcr5HP2hDNCXhvOp1bVKNMo47Tu7ckrB5sZ6u4uI0I5fE4ltbTuJYjw6nHZWo3593eXt/KgPJZ5q5rTryzI9BStoUViKN/skQz5P8q/nN7Y0UpT933ObtNYUff9jo53jkhACAcjbbx5FjebH8Z4C4qa605eLO5COIpeABpUZaHhoI4HhoMNDg0EcDgYMBMgkx72x7Q69PEeYm3aXUraprj7/EhUpqccGlknjpXIpPNee/pPQXzc6Mbmg96358P5yNKmsS0SJsXIF6fxjqJs2V7G6hlcVyIVabgywJvlYQAgBACAZ2u6kmm6e9/I2H2a1828Jr3VdUKbnz5GzaW/8AUVVDlz8jzh7Xtsay1izsd2Y+JnkKjcpOT4s9dGCitMeA9TKGg0T0WtVYli8ijcQPrIxk4SUo8U8/ApqQUk0+ZJmWWZ2S2RkWEu3yUeQm1Vv51JapIrpQjRhoitwwUOOasPcZFXUXxRY5rmb/AGRsavNuqf7de4+B/wDM6+yKkXUlFPivp/ycraqTpxkuTNnWdc0/Rae8z8hU3G61jm7e4eM9NRoVKzxBHIpUZ1HiKOF1L6R8y5mXS8RMevwsuPE59dug++delsqC31JZ8joU9nxXtvJg5HaTW8onvdSv2P2VPCPum9Gzt4/k+5tRtqUfylMZeYG3/pV+/wDzDIuwtHxpR+CLcLGCzRrWpUEFMpmA8LBvNGv2f2bW9qkl5bvoNKNnB7Wjfgz6ODzsq5j4j9DPNX3Y1parSef+2X/16r3kHTOlxcqjJqFuPatiH7SmeNr21a2qOlWjiSKsYJwZSYwPDTJHA4GZMYAzKBc028BjRZ9R+Q987Gy7lRbt6nsvh/PE1riG7WuKI67Gx7uXVDsfWaFOc7O4yuMXh+K/m9EpJTibdbq6KynkRPZ0qkakFOPBnPknF4Y+WGAgBAEbpAPPu2OonK1Q4yH9njezy8WPX5dPnPPbSqudTQuCPUbJtlTod4+MvoYimcto6bRIrSpoi0Sq0raINEiNKmitonRpEg0WKLrKrFepyjjow8JZSqzpSUoPDKakFNYayjkO0mBlrmvm5F9mQtp/0th3K/wnyHlPqHZ7bNK+pqjhRqLl1XVff0KVFU1iKMxF8Np6TDMaiULM4JJjtowSyG0wZGMJnBhk2Hn5Om3i3GcqftIT7LehE0b/AGdb31Lu68c9HzXk/wCeJFxyd5pOq06nj95X7LrsLEPVTPle1NlVtnVtFTenwfX9ypxwaAac3BHA4NM4ItDwYwYwB36gkHwI8JJZW9GMdSxdZ3rizbYsPa9/jL7yaqVO86rf5lUI6VpL2l2/WqJ9ROrsW4f4qL5b19zVuYfmNKehNUIAQCvqOSuJg35DdK0LSFSeiDl0LKNN1akYLmzyM2NY7WOd2clifU9Z5aeZPLPdKOlaVwRIDKWgSKZW0QaHqSekraIMlU+h+UqaIPBIr7GVtEWidWkStoeQliFLFDKeRB6GTp1J05KcHhren0K5RyYefoJUl8L2l690TzHuM+gbK7XU5pU73c/1cv8A2XLzW415U2uBkNW1bcLqVI6hhsZ7WnOFSKlBpp9N5XnAbSWCakBEYJqRLi2102h7sdL08UckD5ia11RnVpuMJuD6rH3D38Hg6vT9P7P6xjlsfG7txydAxDKf0ngb/aO3Nl1dNaaafB4WH6PwNWUqkXvZAezF+mZaZmjZHGy8mot5ca+IDfhvMS7R0NoUXb39PGeElyfXD+eOXIkquV+I3EclQSrKT1VhzE8vOGmTinkkt48NMYGB4aMEWh4MYItEiHkZGXJEJE+JZ3eQh8N+cvsqvdXEJ+74lVWOqLR0E9ucwIAQDnO3WSadBdN9jdYqD18T9wmnfSxRa6nV2NT13SfRNnnKThNHrmiUGVNEGi9hU12As5J57beU0603F4Rq1puLwjRqrRfqoBNZyZqyk3xZMsxllbHGqtx7SAxkjqkuDIWwiDvW/LyMFirLmN7i9etZ+EEu8g+Y5Vt/3bfKCLlHqLbpozU4bsfi8j0I9037Had3YS1UJ48OT9xTNw5s5bVsOvAzDjpb3mwBP8J8j6z6tsW/rX9oq9aGltv3+K8Pj1ya2pZ3FKdUkpCERgsUiTEyr8HIXIxn4XXr5MPI+k1Lyzo3dF0ayyn/ADK8TLw1hnoenZ1efh15FR5N1H7p8RPjm0LGpY3EqFTiuHiuT96NZxw8E1qBx6joZqxel4JReCoCQSD4TZSybGB4aZwRaHh4wRaLFJ3VpVU4oqmO8JW96InRY7mymtzt7Sgz3VvU7ylGfVI5M1pk0Sy8iIekA4j6Sbtl0+jfqz2be4Af2jOdf71FHouz8N9Sfkvq/scWrTltHo2iRTKmiGCxj3NS4YHl4jzlNSmpxwVTgpLBr4+Qlo3Vh7j1nOnTlE0JwlHiWVMrKmSAwQZIpgixxtSteKx0QDxY7CWU6VSo9NOLb6JN/QqlhEX+GNOXrm0H3Pv+E6MNh7TmsxoS96x9cFTnHqZ+q9pK1rNenNx2N1sI9lfdv1M9HsfslVnNVL+OmK/Lxb88cvqUyqLkcq5ZiWYkknck+M+ixhGEdMVhEVIbBYpCTBYpDHmGTTNzsdmmrNsw2Y8Fw4l9GH6j8J4vtjZKpbRuo8YPD8n6PHxZKW87LinzkjgrZXLZ/gZs0JZ3FtPoQh5fgs0kgfaMEGi7jcqj6zVqv8Rr1OIoaMEcG9pbcWHX6bj7563ZbzaxXTP1OZcLFRlydEpA9IB519JL/wCdsNPKgkfFj+k598t8X5/Y9V2fX+GfmvocqpnNaO60PBlbRFokUyDRBokViDuDsfSVyjkg0XMPItN9am1ipPMGa1WnFRbwa9WlHS3g2S4RSzEKFG5J6CaUYuUlFLLZz3uOU1TtWXdqdMPCg5d8R193p6z32yeycIxVW+3v9PJf+Xj4LcaNW45RMY3W3vx32NY37znee1oUqdCOmlFRXhuNGU2+JOh5y/JS5EwMlkahZnJYpgYZbGQ0yJapEbzDLUx+l29zquI/laN/ceX5zmbXpKtY1qfWLLUz0XinxdFmBl54qmHpLKTxNGY7nkoq+86bjvNlomQ8TBR4yLWFkqkjTQ8Kgek5knl5NR72Rq3ObOCbRv6Md8Mfzmem2T/03vZyrtf5DQnTNYQ9IB5x9Jy8GrabZ4WUWJ8VZT/amtdxzTz4nqezrzTqR8V9zlVM5TR6BjwZBoi0PUytoi0PBlbRFonos4LkbyIlc45TRVOOYtEXbfOsqxKcWvcLfuXYeIG3L752OyFnTq1pXE97hw83z92Nx5+6m4pI5Coz6Imc2TLlTSWSiTLVbyWSlsmVpLJHUPDcpLJNSDeSTLoyGkzJsRkROeUgy6LExPazscDqbV/Gad9JRtajf6X9C6HE9F458PityNvA1rPZPul8FvRlLeZ6POxpNhov4K7njPwmjdTx+FGtVfIvceyk+k0kjXwVkebrRa0dNof+oKfNiZ6TZaxbrzZx7z/VZpToGqEA4D6WauHA03NCn9hkFCfIMv8A6iHHVFxfM9F2dnirOHVZ+DOHVuXKcVxxuPUkimVtEWh4aQaMYHgytojgeGkGiDQztLWczQ6shR7eO/t+7p+k6fZqv/T7QlRfCot3mt5wNp0tO85JTsZ9BycRvcWamksmvJlqt5lMpbJ1eTTI5JA0lkkmHFJJl0WNLTOTZiyGxoZsRLegVm7Vqf3a93b026fftPP9pLjuNm1FzliK9/H5ZNugsyO17yfLFA39Iyy0BG3PhL6VPMkjKjvK2Kpuf+EdZ0a81SWeZOb0o10IAAHICcV5byzTaFtfapvlJU45kYS3kCNN2SLGjsdIXg06gbdV3+fOekso6aEUefuXmtIvTbKAgHP9u9POodls6pBvYi96gA6lTvJReHk6Oyq3c3kJPnu+J47gW95UF+0vKaF3S0VG+TPeviWwZpNEWh4Mg0RHhpBojgeDINEcE+Pail67l4qLV4LF8xKpxmpKdJ4mt680a1xQVWDRympYNmBlGljxJ1rcfbXzn0bZ19TvaCrQ3dV0fQ8ZXpSozcGQo2x2m8USRYreZRS4ky2TKZW0SiyTySQd5Mpl0RpsksmxEiZ+RPgJnjuNiJ0vZ7G/o2ObX5WXc9tuijp+JnzjtLfK7uO6g8xh9efw4HYtaLjHL5mv3s88oG1pGne4FAdgep8pdTlGk9Uh7JcpC1qFUbTVqzlUlqZRLeTq8rwVtEeRb9VfM85sUI72zMI7xMcNbYla/Wdgomyqbk1FcxNqMXJ8j0FECIqjooAE9RGOlJI8u3l5HyRgIAy1VetkcAqw2IPiICbW9HgWrYj6Hr+XhONhVaQvqh5qfltJVafe08cz6NaV1cUI1FzXz4MlVuW+847RsYHgyDRjA8GQaI4HBpBojgeGkWjDQ3KrrzKBj5G+w5o4HND6enpNizuqlnW7yn71yf7nPvbGNxHo+pzmXi24lvBbzHgw6H/7ynu7S8o3UNdJ+a5o8jXoVKEtE1+5Gr7dJtFDRKtkEHEkFkkRSF7yZyWxQ1rOUkmXxRpaVgd6y3ZCkVg7qp+1PM7Z213cXb27/G9zfTy8fodqzspSanNYR0He+U8ToOxoJq9zzY7SMpJcCEvAsowA5ShrPEpaJVeRaIOJIHG25jSQcSq13HYT4eE34U9MMFijhG32Wxzkaj3hHs0rxb+p5D8/lN6ypaqmroc3aU9FLHXcdtOycAIAQBG6QHwPOPpZ0UvVRrFKbmvaq/b90nkfny+Msg+R6Xs/dpSdvLnvR59h37fs3Pumrc0fzI9UXgZoNAcDItGMDwZBohgdvINGMDgZFoxgSxEtQpYoZT13k6dWdGSnB4a6FNajTqx0zWUZt2kLzNFm3o3T5zv2/aCS3VoZ8V6HDuNiJvNKWPP1Krablr9WsN/K4/PadOG27KXGWPNP7ZObPZN3H8ufJr74EGBmeFDf1l/WWf3eyX+58n6EP7Xd/o+nqT16XkNt3jIg9+5mrU2/bR9hOXyXz9DbpbGrv2ml/P5zL+Lp9NB3INj/ALzfpOFebZubhOK/CvD1Oxb7No0d73vxL67782nGeMYRvsnrYL0lcssqksk6vIaStolV5HSQcSVXmNJBxGZF4VeANzPWX0KOp5fAxGGWQ1vt+k3HHLJtHonZrAODpqCwbW2nvH+XIfKdS1pd3DxZ5W/r99W3cFuNibJpBACAEAr52LTmYluNkpx02qUdfMGZTwTp1JUpqcHho8F7RaNfoOq2Yd25Cneqw/7RPAy1fiR9Bs7uF1RVSPvXRkWLk8fstyf8ZoVqGnejZyWwZqtEhQZFoDgZBoi0O3kWjGBwMi0RwO3kcGMC8UxgYHAyODGBd5jBjAvFMaTGABEYGByvI6TDiSrZMaSDiSrZI6Stoc+QKk3PM+AkqdJzZHRkqiwsdzzJm+qaisIlpwdH2Q0v/COd39q/5PQQzfxt4D85fRo6pZOVtO6VCnpj7T+h6MOnSdA8sLACAEAIAQDmu2/ZuvtBpu1eyZtILUOfHzU+h5fECSi8M6ey9oOzq5fsvj6niV1NuPc1VyNXbWSrIw2II8Ja0mj3MZRnFSi8os4+XyAt+BmlUo84mc4LYO/SarRIcDvINAUGRaA7ikXExgcG5SOCOBeKYwYwLxTGBgXikcGMChpjBjAcUYGBeKY0jA5X2mHEw0K+StS+0efgJOFGU3uIOOSr372sWY7nyHhN+NFQWEZUMGjpGDkarm14mKu7MfabwRfEmSVPJrXNeFvTdSZ65pmBTp2FXjYw2RBzJ6sfEmbcYqKwjw9etOvUc5FyZKggBACAEAIAhG8A4zt12OTWqzmYIRNQrHMdBcPI+vkZOMjtbK2q7V93V9h/I8iuqspuem6tq7EJDIw2Kn1ljSZ7NOM4qUXlBTfZTyHtL5GUVKKkC9VkpYOR2PkZqTptGUyYGUuJkUGYwBd5HSBd5jBjAvFI4GA4pjBjAvFMaRgXijSYwBcAbnp5wot8BgqXZqj2Kvabzm1StG98mMFXvWLbsd/Wb0aSSwiWDS0jBytVzExMGsva3MnoqjzY+AjQa9zXp20HOo8I9i7OaFRomF3Nez3Nztt25sfyHpCikeGvr2d3U1vcuSNcTJpCwAgBACAEAIAQBCNzAOY7W9j8TtBWbV2ozlGy3gcm9GHiPvElGTR09n7Uq2b08YdPQ8h1nSM3Rcn+j6jSa2O/A/VX9VPjLtzPaW11Ruoa6Tz9SgevukHEvaJK77a+QO48jzlUqSZgsJmgj21290odu+QySrlUt0cfHlKnSkjOpEgtQ/bT+tIOm+hnI7jUfaX5yOh9BkQ3Vj7a/wBaO7k+QyhjZlI+1ufSTVvNmMohfOPREHvMujafqBXstez67EzZhRjHghgb+Pul2kkkb3ZrstqOv2K9K9ziBtnyHHL1C+ZmG0jn3+06NmsSeZdPXoev6BoeFoeIMbBQjfm9jfWsPmTKm8nibu8q3c9dR+S6eRqAbTBqiwAgBACAEAIAQAgBAE2gFbUNPxNRxXx86hLqW6q43/umUWUa1SjPXTeGeda/9GrrxXaFcGHUY9zbfAN+ssVTqels+0EWlG4XvX3Rweoadm6baa8/EtoYfvrsD7j0Pwk9z4HoaNejXjqpSz5FXb4zGks0hsJjSYwJtMaRgAJnA0i7TOkzpCZ0jAbgTOkkkaukdn9W1hwMHCsZN+drjhQf9R/vhuKNS4v7a2Wak8eHF/BHofZ76OcLE4bdXcZd2+/dDlWPh4yp1M8DzV5t+rUTjQWlPnz/AGO6rqStFStFRFGwVRsAJWcBtt5Y4DaDAsAIAQAgBACAEAIAQAgBACAG0AiyMenIr7u+pLUP2XUEQSjOUHmLwzmNS7AaBmlimO+LYftY7cO3w6fdJqckdSjtq8pbnLK8Tnsr6LGBZsPVgR4JdRz+YP5SfenSp9pF/uU/g/X1M2z6M9bX6mRgv7nYfiJnvF0NqPaG1fGLXwI/8W2v/wDCD/un9I7yJP8Av9n4/Amq+jHV2I73Mwqx47FmP4R3q5Irl2itlwi38DWw/osoU752q22DyoqCfeSfwmO9Zp1e0k3/AKdPHm8+h0ul9jdB07Y1YK2OPt3e2d/PnIOcmcqvtW7r7pSwvA6BVVVCqoAHQAbbSBoNtvIuwgwLACAEAIAQAgBACAEAIAQAgBACAEAIAQAgBACAEAIAQAgBACAEAIAQAgBACAf/2Q==",
+      "description": "Mozilla Firefox is a free and open-source web browser developed by the Mozilla Foundation.",
+      "website": "https://www.mozilla.org/en-US/firefox/"
+    },
+    {
+      "id" : "2",
+      "name": "Linux Kernel",
+      "donateNow" : "",
+      "img" : "data:image/jpeg;base64,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",
+      "description": "The Linux Kernel is an open-source monolithic Unix-like computer operating system kernel. It is used by a wide range of devices, from servers and supercomputers to smartphones.",
+      "website": "https://www.kernel.org/"
+    },
+    {
+      "id" : "3",
+      "name": "Apache HTTP Server",
+      "donateNow" : "",
+      "img" : "data:image/jpeg;base64,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",
+      "description": "The Apache HTTP Server, colloquially called Apache, is a free and open-source cross-platform web server software.",
+      "website": "https://httpd.apache.org/"
+    },
+    {
+        "id": "4",
+        "name": "Kodi",
+        "donateNow": "https://kodi.tv/contribute/donate",
+        "img": "https://kodi.tv/images/blog/thumbnail-light.webp",
+        "description": "Kodi is a free and open-source media player software application developed by the XBMC Foundation.",
+        "website": "https://kodi.tv/"
+    },
+    {
+        "id": "5",
+        "name": "FileZilla",
+        "donateNow": "https://filezilla-project.org/donate.php",
+        "img": "",
+        "description": "FileZilla is a free, open-source FTP solution. FileZilla Client is a fast and reliable cross-platform FTP, FTPS, and SFTP client.",
+        "website": "https://filezilla-project.org/"
+    },
+    {
+        "id": "6",
+        "name": "Audacity",
+        "donateNow": "https://www.audacityteam.org/donate/",
+        "img": "",
+        "description": "Audacity is free, open-source, cross-platform audio software for multi-track recording and editing.",
+        "website": "https://www.audacityteam.org/"
+    },
+    {
+        "id": "7",
+        "name": "HandBrake",
+        "donateNow": "https://handbrake.fr/donate.php",
+        "img": "",
+        "description": "HandBrake is a free and open-source video transcoder. It is a multithreaded converter for video and audio formats.",
+        "website": "https://handbrake.fr/"
+    },
+    {
+        "id": "8",
+        "name": "WordPress",
+        "donateNow": "https://wordpress.org/donate/",
+        "img": "",
+        "description": "WordPress is a free and open-source content management system written in PHP and paired with a MySQL or MariaDB database.",
+        "website": "https://wordpress.org/"
+    },
+    {
+        "id": "9",
+        "name": "VLC Media Player",
+        "donateNow": "https://www.videolan.org/contribute.html",
+        "img": "",
+        "description": "VLC media player is a free and open-source portable cross-platform media player software and streaming media server.",
+        "website": "https://www.videolan.org/vlc/index.html"
+    },
+    {
+        "id": "10",
+        "name": "GIMP",
+        "donateNow": "https://www.gimp.org/donating/",
+        "img": "",
+        "description": "GIMP is a free and open-source raster graphics editor used for image manipulation, retouching, and editing.",
+        "website": "https://www.gimp.org/"
+    },
+    {
+        "id": "11",
+        "name": "OpenShot",
+        "donateNow": "https://www.openshot.org/donate/",
+        "img": "",
+        "description": "OpenShot is a free and open-source video editing software. It is available for Windows, macOS, and Linux.",
+        "website": "https://www.openshot.org/"
+    },
+    {
+        "id": "12",
+        "name": "Blender",
+        "donateNow": "https://fund.blender.org/",
+        "img": "",
+        "description": "Blender is a free and open-source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing, motion tracking, and video editing.",
+        "website": "https://www.blender.org/"
+    },
+    {
+        "id": "13",
+        "name": "LibreOffice",
+        "donateNow": "https://www.libreoffice.org/donate/",
+        "img": "",
+        "description": "LibreOffice is a free and open-source office suite, a project of The Document Foundation.",
+        "website": "https://www.libreoffice.org/"
+    },
+    {
+        "id": "14",
+        "name": "Thunderbird",
+        "donateNow": "https://donate.mozilla.org/thunderbird/",
+        "img": "",
+        "description": "Thunderbird is a free and open-source cross-platform email client, news client, RSS, and chat client developed by the Mozilla Foundation.",
+        "website": "https://www.thunderbird.net/"
+    },
+    {
+        "id": "15",
+        "name": "Wireshark",
+        "donateNow": "https://www.wireshark.org/donate",
+        "img": "",
+        "description": "Wireshark is a free and open-source packet analyzer. It is used for network troubleshooting, analysis, software, and communications protocol development.",
+        "website": "https://www.wireshark.org/"
+    },
+    {
+        "id": "16",
+        "name": "Calibre",
+        "donateNow": "https://calibre-ebook.com/donate",
+        "img": "",
+        "description": "Calibre is a free and open-source e-book manager. It is used for reading, converting, and organizing digital books.",
+        "website": "https://calibre-ebook.com/"
+    },
+    {
+        "id": "17",
+        "name": "7-Zip",
+        "donateNow": "https://www.7-zip.org/",
+        "img": "",
+        "description": "7-Zip is a free and open-source file archiver. It is used to place groups of files within compressed containers known as 'archives'.",
+        "website": "https://www.7-zip.org/"
+    },
+    {
+        "id": "18",
+        "name": "KeePass",
+        "donateNow": "https://keepass.info/donate.html",
+        "img": "",
+        "description": "KeePass is a free and open-source password manager primarily for Windows.",
+        "website": "https://keepass.info/"
+    },
+    {
+        "id": "19",
+        "name": "Inkscape",
+        "donateNow": "https://inkscape.org/support-us/donate/",
+        "img": "",
+        "description": "Inkscape is a free and open-source vector graphics editor used to create vector images, primarily in Scalable Vector Graphics format.",
+        "website": "https://inkscape.org/"
+    },
+    {
+        "id": "20",
+        "name": "qBittorrent",
+        "donateNow": "https://www.qbittorrent.org/donate.php",
+        "img": "",
+        "description": "qBittorrent is a free and open-source adware-free alternative to μTorrent. It is used for downloading files via BitTorrent.",
+        "website": "https://www.qbittorrent.org/"
+    },
+    {
+        "id": "21",
+        "name": "VirtualBox",
+        "donateNow": "https://www.virtualbox.org/wiki/Donations",
+        "img": "",
+        "description": "VirtualBox is a free and open-source hosted hypervisor for x86 virtualization, developed by Oracle Corporation.",
+        "website": "https://www.virtualbox.org/"
+    },
+    {
+        "id": "22",
+        "name": "Notepad++",
+        "donateNow": "https://notepad-plus-plus.org/donate/",
+        "img": "",
+        "description": "Notepad++ is a text editor and source code editor for Windows. It supports several programming languages.",
+        "website": "https://notepad-plus-plus.org/"
+    },
+    {
+        "id": "23",
+        "name": "Git",
+        "donateNow": "https://git-scm.com/",
+        "img": "",
+        "description": "Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.",
+        "website": "https://git-scm.com/"
+    },
+    {
+        "id": "24",
+        "name": "Audacity",
+        "donateNow": "https://www.audacityteam.org/donate/",
+        "img": "",
+        "description": "Audacity is free, open-source, cross-platform audio software for multi-track recording and editing.",
+        "website": "https://www.audacityteam.org/"
+    },
+    {
+        "id": "25",
+        "name": "WinSCP",
+        "donateNow": "https://winscp.net/eng/donate.php",
+        "img": "",
+        "description": "WinSCP is a free and open-source SFTP, FTP, WebDAV, Amazon S3, and SCP client for Microsoft Windows.",
+        "website": "https://winscp.net/"
+    },
+    {
+        "id": "26",
+        "name": "TeraCopy",
+        "donateNow": "https://www.codesector.com/teracopy",
+        "img": "",
+        "description": "TeraCopy is a utility designed to copy files faster and more securely. It can resume broken file transfers and skip bad files during the copying process.",
+        "website": "https://www.codesector.com/teracopy"
+      },
+      {
+        "id": "27",
+        "name": "SumatraPDF",
+        "donateNow": "https://www.sumatrapdfreader.org/donate.html",
+        "img": "data:image/jpeg;base64,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",
+        "description": "Sumatra PDF is a free and open-source document viewer that supports many document formats including: Portable Document Format (PDF), Microsoft Compiled HTML Help (CHM), DjVu, EPUB, FictionBook (FB2), MOBI, PRC, Open XML Paper Specification (OpenXPS, OXPS, XPS), and Comic Book Archive file (CB7, CBR, CBT, CBZ).",
+        "website": "https://www.sumatrapdfreader.org/"
+      },
+      {
+        "id": "28",
+        "name": "Krita",
+        "donateNow": "https://krita.org/en/support-us/donations/",
+        "img": "",
+        "description": "Krita is a free and open-source raster graphics editor designed primarily for digital painting and 2D animation. It features an OpenGL-accelerated canvas, color management support, an advanced brush engine, non-destructive layers and masks, group-based layer management, vector artwork support, and switchable customization profiles.",
+        "website": "https://krita.org/"
+      },
+      {
+        "id": "29",
+        "name": "LMMS",
+        "donateNow": "https://lmms.io/donate",
+        "img": "",
+        "description": "LMMS (formerly Linux MultiMedia Studio) is a digital audio workstation application program. It allows music to be produced by arranging samples, synthesizing sounds, playing on a MIDI keyboard, and combining the features of trackers and sequencers.",
+        "website": "https://lmms.io/"
+      },
+      {
+        "id": "30",
+        "name": "PDFCreator",
+        "donateNow": "https://www.pdfforge.org/pdfcreator/donate",
+        "img": "",
+        "description": "PDFCreator is a free and open-source PDF conversion tool that allows you to create PDF files from any printable document.",
+        "website": "https://www.pdfforge.org/pdfcreator"
+      },
+      {
+        "id": "31",
+        "name": "Spyder",
+        "donateNow": "https://github.com/spyder-ide/spyder#donate",
+        "img": "",
+        "description": "Spyder is an open-source cross-platform integrated development environment (IDE) for scientific programming in the Python language. It features an editor with code analysis, a debugger, and an interactive console.",
+        "website": "https://www.spyder-ide.org/"
+      },
+      {
+        "id": "32",
+        "name": "GnuCash",
+        "donateNow": "https://www.gnucash.org/donate.phtml",
+        "img": "",
+        "description": "GnuCash is personal and small-business financial-accounting software, freely licensed under the GNU GPL and available for GNU/Linux, BSD, Solaris, Mac OS X, and Microsoft Windows.",
+        "website": "https://www.gnucash.org/"
+      },
+      {
+        "id": "33",
+        "name": "Hugin",
+        "donateNow": "https://hugin.sourceforge.io/donate/",
+        "img": "",
+        "description": "Hugin is a cross-platform open-source panorama photo stitching and HDR merging program developed by Pablo d'Angelo and others. It is a GUI front-end for Helmut Dersch's Panorama Tools.",
+        "website": "https://hugin.sourceforge.io/"
+      },
+      {
+        "id": "34",
+        "name": "GnuPG",
+        "donateNow": "https://gnupg.org/donate/",
+        "img": "",
+        "description": "GnuPG is a free and open-source implementation of the OpenPGP standard. It is a tool for secure communication and data storage. GnuPG follows the OpenPGP specifications and is interoperable with other OpenPGP-compliant software.",
+        "website": "https://gnupg.org/"
+      },
+      {
+        "id": "35",
+        "name": "FrostWire",
+        "donateNow": "https://www.frostwire.com/donate/",
+        "img": "",
+        "description": "FrostWire is a free and open-source BitTorrent client. It was first released as a fork of LimeWire over 10 years ago.",
+        "website": "https://www.frostwire.com/"
+      },
+      {
+        "id": "36",
+        "name": "ClamWin",
+        "donateNow": "https://www.clamwin.com/",
+        "img": "",
+        "description": "ClamWin is a free and open-source antivirus software for Microsoft Windows. It provides a graphical user interface to the Clam AntiVirus engine.",
+        "website": "https://www.clamwin.com/"
+      },
+      {
+        "id": "37",
+        "name": "Audacity",
+        "donateNow": "https://www.audacityteam.org/donate/",
+        "img": "",
+        "description": "Audacity is free, open-source, cross-platform audio software for multi-track recording and editing.",
+        "website": "https://www.audacityteam.org/"
+      },
+      {
+        "id": "38",
+        "name": "Kodi",
+        "donateNow": "https://kodi.tv/contribute/donate",
+        "img": "",
+        "description": "Kodi is a free and open-source media player software application developed by the XBMC Foundation.",
+        "website": "https://kodi.tv/"
+      },
+      {
+        "id": "39",
+        "name": "FileZilla",
+        "donateNow": "https://filezilla-project.org/donate.php",
+        "img": "",
+        "description": "FileZilla is a free, open-source FTP solution. FileZilla Client is a fast and reliable cross-platform FTP, FTPS, and SFTP client.",
+        "website": "https://filezilla-project.org/"
+      },
+      {
+        "id": "40",
+        "name": "Audacity",
+        "donateNow": "https://www.audacityteam.org/donate/",
+        "img": "",
+        "description": "Audacity is free, open-source, cross-platform audio software for multi-track recording and editing.",
+        "website": "https://www.audacityteam.org/"
+      },
+      {
+        "id": "41",
+        "name": "HandBrake",
+        "donateNow": "https://handbrake.fr/donations.php",
+        "img": "",
+        "description": "HandBrake is a free and open-source transcoder for digital video files. It makes it easy to convert your DVDs and videos into formats usable on your computer, mobile device, and gaming console.",
+        "website": "https://handbrake.fr/"
+      },
+      {
+        "id": "42",
+        "name": "Blender",
+        "donateNow": "https://fund.blender.org/donate/",
+        "img": "",
+        "description": "Blender is a free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications, and video games.",
+        "website": "https://www.blender.org/"
+      }
+  
+
+  ]
+  

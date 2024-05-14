@@ -1,0 +1,242 @@
+[
+    {
+      "Artificial intelligence": {
+        "General AI": [
+          "OpenCog – A project that aims to build an artificial general intelligence (AGI) framework. OpenCog Prime is a specific set of interacting components designed to give rise to human-equivalent artificial general intelligence."
+        ],
+        "Computer vision": [
+          "AForge.NET – computer vision, artificial intelligence and robotics library for the .NET framework",
+          "OpenCV – computer vision library in C++"
+        ],
+        "Machine learning": [
+          "See List of open-source machine learning software",
+          "See Data Mining below",
+          "See R programming language – packages of statistical learning and analysis tools"
+        ],
+        "Planning": [
+          "TREX – Reactive planning"
+        ],
+        "Robotics": [
+          "Robot Operating System (ROS)",
+          "Webots – Robot simulator",
+          "YARP – Yet Another Robot Platform"
+        ]
+      },
+      "Assistive technology": {
+        "Speech (synthesis and recognition)": [
+          "CMU Sphinx – Speech recognition software from Carnegie Mellon University",
+          "Emacspeak – Audio desktop",
+          "ESpeak – Compact software speech synthesizer for English and other languages",
+          "Festival Speech Synthesis System – General multilingual speech synthesis",
+          "Modular Audio Recognition Framework – Voice, audio, speech NLP processing",
+          "NonVisual Desktop Access – (NVDA) Screen reader, for Windows",
+          "Text2Speech – Lightweight, easy-to-use Text-To-Speech (TTS) Software"
+        ],
+        "Other assistive technology": [
+          "Dasher – Unique text input software",
+          "Gnopernicus – AT suite for GNOME 2",
+          "Virtual Magnifying Glass – A multi-platform screen magnification tool"
+        ]
+      },
+      "CAD": {
+        "Free computer-aided design software": [
+          "FreeCAD – Parametric 3D CAD modeler with a focus on mechanical engineering, BIM, and product design.",
+          "LibreCAD – 2D CAD software using AutoCAD-like interface and file format.",
+          "SolveSpace – 2D and 3D CAD, constraint-based parametric modeler with simple mechanical simulation abilities.",
+          "BRL-CAD – a constructive solid geometry (CSG) solid modeling computer-aided design (CAD) system.",
+          "OpenSCAD – A scripting based 3D CAD software.",
+          "Open Cascade Technology (OCCT) – a CAD kernel for 3D CAD, CAM, CAE, etc.",
+          "Blender",
+          "Wings 3D",
+          "Art of Illusion",
+          "MeshLab",
+          "MakeHuman",
+          "Sweet Home 3D"
+        ]
+      },
+      "Finite Element Analysis (FEA)": {
+        "Gmsh": "A three-dimensional finite element mesh generator with built-in pre- and post-processing facilities."
+      },
+      "Electronic design automation (EDA)": {
+        "Fritzing": "A CAD software for the design of electronics hardware to build more permanent circuits from prototypes",
+        "KiCad": "A suite for electronic design automation (EDA) for schematic capture, PCB layout, manufacturing file viewing, SPICE simulation, and engineering calculation"
+      },
+      "Computer simulation": {
+        "Blender": "3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, and motion graphics.",
+        "OpenFOAM": "open-source software used for computational fluid dynamics (or CFD).",
+        "FlightGear": "atmospheric and orbital flight simulator with a flight dynamics engine (JSBSim) that is used in a 2015 NASA benchmark2(https://en.m.wikipedia.org/wiki/List_of_free_and_open-source_software_packages#cite_note-:02-2) to judge new simulation code to space industry standards.",
+        "SimPy": "Queue-theoretic event-based simulator written in Python",
+        "Salome": "a generic platform for Pre- and Post-Processing for numerical simulation"
+      }
+    },
+    {
+      "Cybersecurity": {
+        "Antivirus": [
+          "ClamAV – cross-platform antimalware toolkit written in C and C++, able to detect many types of malware including viruses",
+          "ClamWin – free and open-source antivirus tool for Windows and written in C, C++",
+          "Lynis – Security audit tool (set of shell scripts) for Unix and Linux"
+        ],
+        "Data loss prevention": [
+          "MyDLP"
+        ],
+        "Data recovery": [
+          "dvdisaster",
+          "ddrescue",
+          "Foremost",
+          "PhotoRec",
+          "TestDisk"
+        ],
+        "Forensics": [
+          "The Coroner's Toolkit",
+          "The Sleuth Kit"
+        ],
+        "Anti-forensics": [
+          "USBKill",
+          "Tails",
+          "BusKill"
+        ],
+        "Disk erasing": [
+          "DBAN",
+          "srm"
+        ],
+        "Encryption": [
+          "AES",
+          "Bouncy Castle",
+          "GnuPG",
+          "GnuTLS",
+          "KGPG",
+          "NaCl",
+          "OpenSSL",
+          "Seahorse",
+          "Signal",
+          "stunnel",
+          "TextSecure",
+          "wolfCrypt",
+          "7-Zip"
+        ],
+        "Disk encryption": [
+          "dm-crypt",
+          "CrossCrypt",
+          "FreeOTFE and FreeOTFE Explorer",
+          "eCryptfs",
+          "VeraCrypt"
+        ],
+        "Firewall": [
+          "Firewalld",
+          "Uncomplicated Firewall (ufw)",
+          "Firestarter",
+          "IPFilter",
+          "ipfw",
+          "iptables",
+          "nftables",
+          "M0n0wall",
+          "PeerGuardian",
+          "PF",
+          "pfSense",
+          "OPNsense",
+          "Rope",
+          "Shorewall",
+          "SmoothWall",
+          "Vyatta",
+          "VyOS"
+        ],
+        "Network and security monitoring": [
+          "Snort – Network intrusion detection system (IDS) and intrusion prevention system (IPS)",
+          "OpenVAS – software framework of several services and tools offering vulnerability scanning and vulnerability management"
+        ],
+        "Secure Shell (SSH)": [
+          "Cyberduck – macOS and Windows client (since version 4.0)",
+          "Lsh – Server and client, with support for SRP and Kerberos authentication",
+          "OpenSSH – Client and server",
+          "PuTTY – Client-only"
+        ],
+        "Password management": [
+          "Bitwarden",
+          "KeePass",
+          "KeePassXC (multiplatform fork able to open KeePass databases)",
+          "Password Safe",
+          "Mitro",
+          "Pass"
+        ]
+      },
+      "Data storage and management": {
+        "Backup software": [
+          "See List of backup software"
+        ],
+        "Database management systems (including administration)": [
+          "See List of relational database management systems",
+          "See NoSQL"
+        ]
+      },
+      "Data mining": {
+        "Environment for DeveLoping KDD-Applications Supported by Index-Structures (ELKI) – Data mining software framework written in Java with a focus on clustering and outlier detection methods",
+        "FrontlineSMS – Information distribution and collecting via text messaging (SMS)",
+        "Konstanz Information Miner (KNIME)",
+        "OpenNN – Open-source neural network software library written in C++",
+        "Orange (software) – Data visualization and data mining for novice and experts, through visual programming or Python scripting. Extensions for bioinformatics and text mining",
+        "RapidMiner – Data mining software written in Java, fully integrating Weka, featuring 350+ operators for preprocessing, machine learning, visualization, etc. – the prior version is available as open-source",
+        "Scriptella ETL – ETL (Extract-Transform-Load) and script execution tool. Supports integration with J2EE and Spring. Provides connectors to CSV, LDAP, XML, JDBC/ODBC, and other data sources",
+        "Weka – Data mining software written in Java featuring machine learning operators for classification, regression, and clustering",
+        "JasperSoft – Data mining with programmable abstraction layer"
+      },
+      "Data Visualization Components": {
+        "ParaView – Plotting and visualization functions developed by Sandia National Laboratory; capable of massively parallel flow visualization utilizing multiple computer processors",
+        "VTK – Toolkit for 3D computer graphics, image processing, and visualization."
+      },
+      "Digital Asset Management software system": {},
+      "Disk partitioning software": [
+        "GParted",
+        "FIPS (computer program)",
+        "TestDisk"
+      ],
+      "Enterprise search engines": [
+        "ApexKB, formerly known as Jumper",
+        "Lucene",
+        "Nutch",
+        "Solr",
+        "Xapian"
+      ],
+      "ETLs (Extract Transform Load)": [
+        "Konstanz Information Miner (KNIME)",
+        "Pentaho"
+      ],
+      "File archivers": [
+        "PeaZip",
+        "7-Zip"
+      ],
+      "File systems": [
+        "OpenAFS – Distributed file system supporting a very wide variety of operating systems",
+        "Tahoe-LAFS – Distributed file system/Cloud storage system with integrated privacy and security features",
+        "CephFS – Distributed file system included in the Ceph storage platform."
+      ],
+      "Desktop publishing": [
+        "Collabora Online Draw and Writer – Enterprise-ready edition of LibreOffice accessible from a web browser. The Draw application is for flyers, newsletters, brochures and more, Writer has most of the functionality too.",
+        "Scribus – Designed for layout, typesetting, and preparation of files for professional-quality image-setting equipment. It can also create animated and interactive PDF presentations and forms.",
+        "LyX – A \"What You See Is What You Mean\" document creation system, LyX makes use of the LaTeX markup macro system for TeX, allowing the elegant creation of documents which match up with the layouts in it for various document classes."
+      ],
+      "E-book management and editing": [
+        "Calibre – Cross-platform suite of ebook software",
+        "Collabora Online Writer – Enterprise-ready edition of LibreOffice accessible from a web browser. Allows exporting in the EPUB format.",
+        "Sigil – Editing software for e-books in the EPUB format"
+      ],
+      "Education": {
+        "E-learning, learning support": [
+          "ATutor – Web-based Learning Content Management System (LCMS)",
+          "Chamilo – Web-based e-learning and content management system",
+          "Claroline – Collaborative Learning Management System",
+          "DoceboLMS – SAAS/cloud platform for learning",
+          "eFront – Icon-based learning management system",
+          "H5P – Framework for creating and sharing interactive HTML5 content",
+          "IUP Portfolio – Educational platform for Swedish schools",
+          "ILIAS – Web-based learning management system (LMS)",
+          "Moodle – Free and open-source learning management system",
+          "OLAT – Web-based Learning Content Management System",
+          "Omeka – Content management system for online digital collections",
+          "openSIS – Web-based Student Information and School Management system",
+          "Sakai Project – Web-based learning management system",
+          "SWAD – Web-based learning management system"
+        ]
+      }
+    }
+  ]
+  
