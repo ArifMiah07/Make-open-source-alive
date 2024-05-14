@@ -15,6 +15,17 @@ const Home = () => {
             .then(data => {
                 setOpData(randomized ? shuffleArray(data) : data);
             });
+
+        // Retrieve user preferences from local storage
+        const savedRandomized = localStorage.getItem("randomized");
+        if (savedRandomized !== null) {
+            setRandomized(JSON.parse(savedRandomized));
+        }
+
+        const savedVisibleData = localStorage.getItem("visibleData");
+        if (savedVisibleData !== null) {
+            setVisibleData(parseInt(savedVisibleData));
+        }
     }, [randomized]);
 
     // Function to shuffle array
@@ -30,11 +41,13 @@ const Home = () => {
     // Function to toggle between randomized and serialized orders
     const toggleOrder = () => {
         setRandomized(!randomized);
+        localStorage.setItem("randomized", !randomized);
     };
 
     // Function to load more cards
     const loadMore = () => {
         setVisibleData(prev => prev + 10); // Increase the number of visible data by 10
+        localStorage.setItem("visibleData", visibleData + 10);
     };
 
     return (
