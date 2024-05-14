@@ -7,7 +7,7 @@ const NavBar = () => {
         <li><NavLink to={'/'} className="text-black hover:text-yellow-400 hover:text-[21px] ">Home</NavLink> </li>
         <li><NavLink to={'/profile'} className="text-black hover:text-yellow-400 hover:text-[21px] ">Profile</NavLink> </li>
         <li><a href='https://en.wikipedia.org/wiki/List_of_free_and_open-source_software_packages' target='_blank' className="text-black hover:text-yellow-400 hover:text-[21px] ">List of open source program</a> </li>
-        <li><NavLink to={'/blog'} className="text-black hover:text-yellow-400 hover:text-[21px] ">Blogs</NavLink> </li>
+        <li><NavLink to={'/blogs'} className="text-black hover:text-yellow-400 hover:text-[21px] ">Blogs</NavLink> </li>
         <li><NavLink to={'/about'} className="text-black hover:text-yellow-400 hover:text-[21px] ">About</NavLink> </li>
     </>
   return (
