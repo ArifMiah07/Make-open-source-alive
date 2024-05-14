@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import './navbar.css'
+import { Helmet } from 'react-helmet-async';
 const NavBar = () => {
 
     const navLinks = <>
@@ -11,6 +12,22 @@ const NavBar = () => {
     </>
   return (
     <div className="navbar border-b-2 border rounded-[85px]  custom-box-shadow bg-[#FFFFFF] flex justify-between items-center px-4 py-2 text-white">
+        <Helmet>
+                <title>Keep Open Source Alive</title>
+            <meta title="keep-open-source-alive" />
+            <meta name="keep open source alive" />
+            <meta name="description" content="Keep Open Source Alive - An open-source project aimed at keeping other open-source projects alive and maintained." />
+            <meta name="keywords" content="open source, keep open source alive, maintain open source projects" />
+            <meta name="author" content="Arif Miah" />
+            <meta property="og:title" content="Keep Open Source Alive" />
+            <meta property="og:description" content="An open-source project aimed at keeping other open-source projects alive and maintained." />
+            <meta property="og:image" content="https://keep-open-source-alive.web.app/keep-open-source-alive-image.jpg" />
+            <meta property="og:url" content="https://keep-open-source-alive.web.app" />
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title" content="Keep Open Source Alive" />
+            <meta name="twitter:description" content="An open-source project aimed at keeping other open-source projects alive and maintained." />
+            <meta name="twitter:image" content="https://keep-open-source-alive.web.app/keep-open-source-alive-image.jpg" />
+        </Helmet>
         <div className="navbar-start flex gap-5">
             <div className="dropdown">
                 <div tabIndex={0} role="button" className="btn lg:hidden">
