@@ -12,7 +12,7 @@ const NavBar = () => {
         <li><NavLink to={'/about'} className="text-black hover:text-yellow-400 hover:text-[21px] ">About</NavLink> </li>
     </>
   return (
-    <div className="navbar border-b-2 border rounded-[85px]  custom-box-shadow bg-[#FFFFFF] flex justify-between items-center px-4 py-2 text-white">
+    <div className="navbar border-b-2 border   custom-box-shadow bg-slate-300 flex justify-between items-center px-4 py-2 text-white">
         <Helmet>
                 <title>Keep Open Source Alive | Kospa</title>
             <meta name="keep-open-source-alive" />
@@ -30,7 +30,7 @@ const NavBar = () => {
             <meta name="twitter:description" content="An open-source project aimed at keeping other open-source projects alive and maintained." />
             <meta name="twitter:image" content="https://keep-open-source-alive.web.app/keep-open-source-alive-image.jpg" />
         </Helmet>
-        <div className="navbar-start flex gap-5">
+        <div className="navbar-start  flex gap-5">
             <div className="dropdown">
                 <div tabIndex={0} role="button" className="btn lg:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>

@@ -61,11 +61,11 @@ const CenterSideContent = () => {
             <div className="p-4 flex flex-col bg-slate-500 md:flex md:flex-row lg:flex lg:flex-row gap-3">
                 <span className="text-white">Want to add Your own open source program in our list?</span>
                 <div className="flex flex-row md:flex md:flex-row lg:flex lg:flex-row justify-evenly gap-4">
-                    <Link to={'/addCard'}> <button className="bg-slate-600 text-emerald-50 px-6">Click to Add</button></Link>
+                    <Link to={'/addCard'}> <button className="bg-slate-600 text-emerald-50 px-6">Add</button></Link>
                     <Link to={'/search'}> <button className="bg-slate-600 text-emerald-50 px-6">Search</button></Link>
                 </div>
                 <button onClick={toggleOrder} className="bg-slate-600 text-emerald-50 px-6">
-                    {randomized ? "See Serialized" : "See Randomized"}
+                    {randomized ? "Serialized" : "Randomized"}
                 </button>
             </div>
             <div className="grid grid-cols-1 md:grid md:grid-cols-2 lg:grid lg:grid-cols-2 gap-6 p-6 border rounded-lg">
