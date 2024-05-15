@@ -57,7 +57,7 @@ const CenterSideContent = () => {
         localStorage.setItem("visibleData", Math.max(visibleData - 10, 10));
     };
     return (
-        <div>
+        <div className="hover:bg-white-50">
             <div className="p-4 flex flex-col bg-slate-500 md:flex md:flex-row lg:flex lg:flex-row gap-3">
                 <span className="text-white">Want to add Your own open source program in our list?</span>
                 <div className="flex flex-row md:flex md:flex-row lg:flex lg:flex-row justify-evenly gap-4">

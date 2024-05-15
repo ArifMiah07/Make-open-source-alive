@@ -7,12 +7,13 @@ import { Helmet } from "react-helmet-async";
 // import CenterSideContent from "../../CenterSideContent/CenterSideContent";
 // import LeftSideBar from "../../LeftSideBar/LeftSideBar";
 // import RightSideBar from "../../RightSideBar/RightSideBar";
-import Explore from "../../Explore/Explore";
-import { Link } from "react-router-dom";
+// import Explore from "../../Explore/Explore";
+// import { Link } from "react-router-dom";
+import Banner from "../Banner/Banner";
 
 const Home = () => {
     return (
-        <div className="p-2">
+        <div className="">
             <Helmet>
                 <title>Home | Keep Open Source Program Alive | KOSPA</title>
                 <meta title="keep-open-source-alive" />
@@ -32,9 +33,10 @@ const Home = () => {
                 <meta name="twitter:image" content="https://keep-open-source-alive.web.app/keep-open-source-alive-image.jpg" />
             </Helmet>
             <div>
-                <Link to={'/explore'}>
-                <button>Explore Now</button>
-                </Link>
+                <div>
+                    <Banner></Banner>
+                </div>
+                
             </div>
         </div>
     );
