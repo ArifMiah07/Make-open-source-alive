@@ -12,6 +12,7 @@ import Profile from "../Pages/Profile/Profile";
 import Blogs from "../Pages/Blogs/Blogs";
 import SearchPage from "../Pages/SearchPage/SearchPage";
 import Explore from "../Pages/Explore/Explore";
+import Canvas from "../Pages/Home/Canvas/Canvas";
 
 
 const router = createBrowserRouter([
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
         {
           path: '/explore',
           element: <Explore></Explore>
+        },
+        {
+          path: '/canvas',
+          element: <Canvas></Canvas>
         },
         {
             path: '/cardDetails:id',

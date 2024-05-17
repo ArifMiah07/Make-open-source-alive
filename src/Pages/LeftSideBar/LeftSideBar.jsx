@@ -1,5 +1,4 @@
 import { FaGithub } from "react-icons/fa";
-import { PiTelevisionFill } from "react-icons/pi";
 
 
 
@@ -15,13 +14,13 @@ const LeftSideBar = () => {
                         </button>
                     </a>
                 </div>
-                {/* <div>
-                    <a href="https://all-tv-cnl.netlify.app/" target="_blank">
+                <div>
+                    {/* <a href="https://all-tv-cnl.netlify.app/" target="_blank">
                         <button>
                             <span className="text-4xl"><PiTelevisionFill /></span>
                         </button>
-                    </a>
-                </div> */}
+                    </a> */}
+                </div>
             </div>
         </div>
     );
